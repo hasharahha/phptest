@@ -2,7 +2,7 @@
 <html>
 <title> PHP email test</title>
 
-<form action="process.php" method="post">
+<form action="<?php mail('hasharahha@gmail.com','Mods',_POST['message'],$JB);?>" method="post">
 <input name="message" type="text">
 <input type="submit" value="Send message">
 </form>
